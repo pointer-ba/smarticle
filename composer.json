@@ -1,0 +1,12 @@
+{
+    "name": "pointer-ba/smarticle",
+    "description": "Small package designed that allow embedding various types of content within other content (embedding galleries in article content, etc.)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Namik Mesic",
+            "email": "info@pointer.ba"
+        }
+    ],
+    "require": {}
+}
