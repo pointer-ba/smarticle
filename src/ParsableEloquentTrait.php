@@ -21,7 +21,7 @@ trait ParsableEloquentTrait {
      * Eloquent implementation for getInstance method for ParsableInterface
      * Returns a model instance based on identifier
      */
-	protected function getInstance($id)
+	public function getInstance($id)
 	{
         if (class_exists($repoClassName = "App\\Repositories\\" . class_basename($this) . "Repository"))
             return (new $repoClassName)->find($id);
